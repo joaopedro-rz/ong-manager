@@ -1,0 +1,4 @@
+ALTER TABLE ngos
+    ADD COLUMN allow_volunteers BOOLEAN NOT NULL DEFAULT FALSE,
+    ADD COLUMN volunteer_slots INTEGER NOT NULL DEFAULT 0;
+

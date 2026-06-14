@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ong_manager
+    username: ong_user
+    password: change_me_in_production
+logging:
+  level:
+    com.ongmanager: DEBUG
+    org.springframework.security: INFO

@@ -1,0 +1,60 @@
+# Java
+target/
+*.class
+*.jar
+*.war
+.mvn/
+mvnw
+mvnw.cmd
+.gradle/
+build/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+
+# Node
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+*.tsbuildinfo
+coverage/
+
+# Env and secrets (keep only examples versioned)
+.env*
+!.env.example
+!**/.env.example
+
+# Certificate and key material
+*.pem
+*.key
+*.crt
+*.cer
+*.p12
+*.pfx
+*.jks
+
+# Local infra artifacts
+postgres-data/
+nginx/certs/*
+!nginx/certs/.gitkeep
+
+# Local backup artifacts
+scripts/backup/*.sql
+scripts/backup/**/*.sql
+scripts/backup/*.dump
+scripts/backup/**/*.dump
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db
